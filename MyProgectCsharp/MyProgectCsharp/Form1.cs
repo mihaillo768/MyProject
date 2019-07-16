@@ -22,7 +22,7 @@ namespace MyProgectCsharp
         public double argument2;
         public double result;
 
-        private void buttonPlus(object sender, EventArgs e)
+        /*private void buttonPlus(object sender, EventArgs e)
         {
             argument1 = Convert.ToDouble(argument_1.Text);
             argument2 = Convert.ToDouble(argument_2.Text);
@@ -56,7 +56,7 @@ namespace MyProgectCsharp
             result = argument1 / argument2;
             TotalResult.Text = Convert.ToString(result);
             //znak = '/';
-        }
+        }*/
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -71,6 +71,31 @@ namespace MyProgectCsharp
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+        private void buttons(object sender, EventArgs e)
+        {
+
+            argument1 = Convert.ToDouble(argument_1.Text);
+            argument2 = Convert.ToDouble(argument_2.Text);
+            switch (((Button)sender).Name)
+            {
+                case "Plus":
+                    result = argument1 + argument2;
+                    TotalResult.Text = Convert.ToString(result);
+                    break;
+                case "Minus":
+                    result = argument1 - argument2;
+                    TotalResult.Text = Convert.ToString(result);
+                    break;
+                case "multi":
+                    result = argument1 * argument2;
+                    TotalResult.Text = Convert.ToString(result);
+                    break;
+                case "div":
+                    result = argument1 / argument2;
+                    TotalResult.Text = Convert.ToString(result);
+                    break;
+            }
         }
     }
 }
