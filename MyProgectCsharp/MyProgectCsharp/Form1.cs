@@ -17,27 +17,60 @@ namespace MyProgectCsharp
             InitializeComponent();
         }
 
-        char znak;
+        // char znak;
+        public double argument1;
+        public double argument2;
+        public double result;
 
         private void buttonPlus(object sender, EventArgs e)
         {
-            znak = '+';
+            argument1 = Convert.ToDouble(argument_1.Text);
+            argument2 = Convert.ToDouble(argument_2.Text);
+            result = argument1 + argument2;
+            TotalResult.Text = Convert.ToString(result);
+            //  znak = '+';
         }
 
         private void buttonMinus(object sender, EventArgs e)
         {
-            znak = '-';
+            argument1 = Convert.ToDouble(argument_1.Text);
+            argument2 = Convert.ToDouble(argument_2.Text);
+            result = argument1 - argument2;
+            TotalResult.Text = Convert.ToString(result);
+            //znak = '-';
         }
 
         private void buttonMultiplication(object sender, EventArgs e)
         {
-            znak = '*';
+            argument1 = Convert.ToDouble(argument_1.Text);
+            argument2 = Convert.ToDouble(argument_2.Text);
+            result = argument1 * argument2;
+            TotalResult.Text = Convert.ToString(result);
+            //znak = '*';
         }
 
         private void buttonDevision(object sender, EventArgs e)
         {
-            znak = '/';
+            argument1 = Convert.ToDouble(argument_1.Text);
+            argument2 = Convert.ToDouble(argument_2.Text);
+            result = argument1 / argument2;
+            TotalResult.Text = Convert.ToString(result);
+            //znak = '/';
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
