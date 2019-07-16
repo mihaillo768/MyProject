@@ -77,6 +77,7 @@ namespace MyProgectCsharp
 
             argument1 = Convert.ToDouble(argument_1.Text);
             argument2 = Convert.ToDouble(argument_2.Text);
+            /*
             switch (((Button)sender).Name)
             {
                 case "Plus":
@@ -93,9 +94,15 @@ namespace MyProgectCsharp
                     break;
                 case "div":
                     result = argument1 / argument2;
-                    TotalResult.Text = Convert.ToString(result);
+                   
                     break;
             }
-        }
+
+            TotalResult.Text = Convert.ToString(result)*/
+        ITwoArgrumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
+        double result = calculator.Calculate(argument1, argument2);
+            TotalResult.Text = result.ToString();
+
     }
+}
 }
