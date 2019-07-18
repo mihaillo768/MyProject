@@ -51,5 +51,10 @@ namespace MyProgectCsharp
             double result = calculator.Calculate(FirstArgument, SecondArgument);
             TotalResult.Text = result.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

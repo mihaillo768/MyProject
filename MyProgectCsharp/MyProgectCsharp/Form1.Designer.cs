@@ -40,6 +40,11 @@
             this.Tangens = new System.Windows.Forms.Button();
             this.Catangens = new System.Windows.Forms.Button();
             this.ArcSinus = new System.Windows.Forms.Button();
+            this.ArcCosinus = new System.Windows.Forms.Button();
+            this.ArcTangens = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
+            this.Logarifm = new System.Windows.Forms.Button();
+            this.LogarifmOfTwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -161,19 +166,74 @@
             // 
             // ArcSinus
             // 
-            this.ArcSinus.Location = new System.Drawing.Point(123, 159);
+            this.ArcSinus.Location = new System.Drawing.Point(122, 157);
             this.ArcSinus.Name = "ArcSinus";
-            this.ArcSinus.Size = new System.Drawing.Size(49, 50);
+            this.ArcSinus.Size = new System.Drawing.Size(49, 52);
             this.ArcSinus.TabIndex = 22;
             this.ArcSinus.Text = "Arcsin";
             this.ArcSinus.UseVisualStyleBackColor = true;
             this.ArcSinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // ArcCosinus
+            // 
+            this.ArcCosinus.Location = new System.Drawing.Point(122, 231);
+            this.ArcCosinus.Name = "ArcCosinus";
+            this.ArcCosinus.Size = new System.Drawing.Size(49, 50);
+            this.ArcCosinus.TabIndex = 23;
+            this.ArcCosinus.Text = "Arccos";
+            this.ArcCosinus.UseVisualStyleBackColor = true;
+            this.ArcCosinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // ArcTangens
+            // 
+            this.ArcTangens.Location = new System.Drawing.Point(123, 297);
+            this.ArcTangens.Name = "ArcTangens";
+            this.ArcTangens.Size = new System.Drawing.Size(49, 50);
+            this.ArcTangens.TabIndex = 24;
+            this.ArcTangens.Text = "Arctan";
+            this.ArcTangens.UseVisualStyleBackColor = true;
+            this.ArcTangens.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // Power
+            // 
+            this.Power.Location = new System.Drawing.Point(178, 159);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(49, 50);
+            this.Power.TabIndex = 26;
+            this.Power.Text = "e^x";
+            this.Power.UseVisualStyleBackColor = true;
+            this.Power.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // Logarifm
+            // 
+            this.Logarifm.Location = new System.Drawing.Point(178, 231);
+            this.Logarifm.Name = "Logarifm";
+            this.Logarifm.Size = new System.Drawing.Size(49, 50);
+            this.Logarifm.TabIndex = 27;
+            this.Logarifm.Text = "ln(x)";
+            this.Logarifm.UseVisualStyleBackColor = true;
+            this.Logarifm.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // LogarifmOfTwo
+            // 
+            this.LogarifmOfTwo.Location = new System.Drawing.Point(178, 297);
+            this.LogarifmOfTwo.Name = "LogarifmOfTwo";
+            this.LogarifmOfTwo.Size = new System.Drawing.Size(49, 50);
+            this.LogarifmOfTwo.TabIndex = 28;
+            this.LogarifmOfTwo.Text = "log2(x)";
+            this.LogarifmOfTwo.UseVisualStyleBackColor = true;
+            this.LogarifmOfTwo.Click += new System.EventHandler(this.oneargumentfunction);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.LogarifmOfTwo);
+            this.Controls.Add(this.Logarifm);
+            this.Controls.Add(this.Power);
+            this.Controls.Add(this.ArcTangens);
+            this.Controls.Add(this.ArcCosinus);
             this.Controls.Add(this.ArcSinus);
             this.Controls.Add(this.Catangens);
             this.Controls.Add(this.Tangens);
@@ -188,6 +248,7 @@
             this.Controls.Add(this.argument_1);
             this.Name = "Form1";
             this.Text = "Калькулятор";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +267,11 @@
         private System.Windows.Forms.Button Tangens;
         private System.Windows.Forms.Button Catangens;
         private System.Windows.Forms.Button ArcSinus;
+        private System.Windows.Forms.Button ArcCosinus;
+        private System.Windows.Forms.Button ArcTangens;
+        private System.Windows.Forms.Button Power;
+        private System.Windows.Forms.Button Logarifm;
+        private System.Windows.Forms.Button LogarifmOfTwo;
     }
 }
 

@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="One argument\Arccos.cs" />
     <Compile Include="One argument\Arcsin.cs" />
+    <Compile Include="One argument\Arctan.cs" />
+    <Compile Include="One argument\Logarifm.cs" />
+    <Compile Include="One argument\LogarifmOfTwo.cs" />
+    <Compile Include="One argument\Power.cs" />
     <Compile Include="Two arguments\Adder.cs" />
     <Compile Include="One argument\Catangens.cs" />
     <Compile Include="One argument\Cosinus.cs" />

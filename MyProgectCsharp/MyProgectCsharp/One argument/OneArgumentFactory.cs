@@ -8,8 +8,6 @@ namespace MyProgectCsharp.One_argument
         {
             switch (operationName)
             {
-                case "ArcSinus":
-                    return new Arcsin();
                 case "Sinus":
                     return new Sinus();
                 case "Cosinus":
@@ -18,6 +16,19 @@ namespace MyProgectCsharp.One_argument
                     return new Tangens();
                 case "Catangens":
                     return new Catangens();
+                case "ArcSinus":
+                    return new Arcsin();
+                case "ArcCosinus":
+                    return new Arccos();
+                case "ArcTangens":
+                    return new Arctan();
+                case "Power":
+                    return new Power();
+                case "Logarifm":
+                    return new Logarifm();
+                case "LogarifmOfTwo":
+                    return new LogarifmOfTwo();
+
                 default:
                     throw new Exception("Несуществующая операция");
             }
