@@ -36,6 +36,7 @@
             this.argument_2 = new System.Windows.Forms.TextBox();
             this.TotalResult = new System.Windows.Forms.TextBox();
             this.Sinus = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -125,11 +126,22 @@
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.oneargumentfunction);
             // 
+            // Cosinus
+            // 
+            this.Cosinus.Location = new System.Drawing.Point(167, 297);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(139, 50);
+            this.Cosinus.TabIndex = 19;
+            this.Cosinus.Text = "Cos";
+            this.Cosinus.UseVisualStyleBackColor = true;
+            this.Cosinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
             this.Controls.Add(this.TotalResult);
             this.Controls.Add(this.argument_2);
@@ -154,6 +166,7 @@
         private System.Windows.Forms.TextBox argument_2;
         private System.Windows.Forms.TextBox TotalResult;
         private System.Windows.Forms.Button Sinus;
+        private System.Windows.Forms.Button Cosinus;
     }
 }
 

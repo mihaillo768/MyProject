@@ -14,6 +14,8 @@ namespace MyProgectCsharp
             {
                 case "Sinus":
                     return new Sinus();
+                case "Cosinus":
+                    return new Sinus();
                 default:
                     throw new Exception("Несуществующая операция");
             }
