@@ -38,6 +38,7 @@
             this.Sinus = new System.Windows.Forms.Button();
             this.Cosinus = new System.Windows.Forms.Button();
             this.Tangens = new System.Windows.Forms.Button();
+            this.Catangens = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -147,11 +148,22 @@
             this.Tangens.UseVisualStyleBackColor = true;
             this.Tangens.Click += new System.EventHandler(this.oneargumentfunction);
             // 
+            // Catangens
+            // 
+            this.Catangens.Location = new System.Drawing.Point(67, 353);
+            this.Catangens.Name = "Catangens";
+            this.Catangens.Size = new System.Drawing.Size(49, 50);
+            this.Catangens.TabIndex = 21;
+            this.Catangens.Text = "Ctan";
+            this.Catangens.UseVisualStyleBackColor = true;
+            this.Catangens.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.Catangens);
             this.Controls.Add(this.Tangens);
             this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
@@ -180,6 +192,7 @@
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button Tangens;
+        private System.Windows.Forms.Button Catangens;
     }
 }
 

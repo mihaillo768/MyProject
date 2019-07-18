@@ -12,12 +12,14 @@ namespace MyProgectCsharp
         {
             switch (operationName)
             {
-                case "Tangens":
-                    return new Tangens();
                 case "Sinus":
                     return new Sinus();
                 case "Cosinus":
-                    return new Sinus();
+                    return new Cosinus();
+                case "Tangens":
+                    return new Tangens();
+                case "Catangens":
+                    return new Catangens();
                 default:
                     throw new Exception("Несуществующая операция");
             }
