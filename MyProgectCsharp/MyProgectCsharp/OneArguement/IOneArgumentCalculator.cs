@@ -1,4 +1,4 @@
-﻿namespace MyProgectCsharp.One_argument
+﻿namespace MyProgectCsharp.OneArguement
 {
 
     public interface IOneArgrumentCalculator

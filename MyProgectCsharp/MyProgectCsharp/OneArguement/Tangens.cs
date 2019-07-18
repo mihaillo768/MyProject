@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyProgectCsharp.One_argument
+namespace MyProgectCsharp.OneArguement
 {
     class Tangens : IOneArgrumentCalculator
     {

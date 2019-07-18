@@ -1,4 +1,4 @@
-﻿namespace MyProgectCsharp.Two_arguments
+﻿namespace MyProgectCsharp.TwoArguements
 {
     public interface ITwoArgrumentsCalculator
     {

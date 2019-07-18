@@ -46,32 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="One argument\Arccos.cs" />
-    <Compile Include="One argument\Arcsin.cs" />
-    <Compile Include="One argument\Arctan.cs" />
-    <Compile Include="One argument\Logarifm.cs" />
-    <Compile Include="One argument\LogarifmOfTwo.cs" />
-    <Compile Include="One argument\Power.cs" />
-    <Compile Include="Two arguments\Adder.cs" />
-    <Compile Include="One argument\Catangens.cs" />
-    <Compile Include="One argument\Cosinus.cs" />
-    <Compile Include="Two arguments\Divider.cs" />
+    <Compile Include="OneArguement\Arccos.cs" />
+    <Compile Include="OneArguement\Arcsin.cs" />
+    <Compile Include="OneArguement\Arctan.cs" />
+    <Compile Include="OneArguement\Logarifm.cs" />
+    <Compile Include="OneArguement\LogarifmOfTwo.cs" />
+    <Compile Include="OneArguement\Power.cs" />
+    <Compile Include="TwoArguements\Adder.cs" />
+    <Compile Include="OneArguement\Catangens.cs" />
+    <Compile Include="OneArguement\Cosinus.cs" />
+    <Compile Include="TwoArguements\Divider.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="One argument\IOneArgumentCalculator.cs" />
-    <Compile Include="Two arguments\ITwoArgrumentsCalculator.cs" />
-    <Compile Include="Two arguments\Minus.cs" />
-    <Compile Include="Two arguments\Multiplier.cs" />
-    <Compile Include="One argument\OneArgumentFactory.cs" />
+    <Compile Include="OneArguement\IOneArgumentCalculator.cs" />
+    <Compile Include="TwoArguements\ITwoArgrumentsCalculator.cs" />
+    <Compile Include="TwoArguements\Minus.cs" />
+    <Compile Include="TwoArguements\Multiplier.cs" />
+    <Compile Include="OneArguement\OneArgumentFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="One argument\Sinus.cs" />
-    <Compile Include="One argument\Tangens.cs" />
-    <Compile Include="Two arguments\TwoArgumentFactory.cs" />
+    <Compile Include="OneArguement\Sinus.cs" />
+    <Compile Include="OneArguement\Tangens.cs" />
+    <Compile Include="TwoArguements\TwoArgumentFactory.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

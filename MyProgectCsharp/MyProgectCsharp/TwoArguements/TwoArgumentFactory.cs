@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyProgectCsharp.Two_arguments
+namespace MyProgectCsharp.TwoArguements
 {
     public class TwoArgumentFactory
     {
