@@ -39,6 +39,7 @@
             this.Cosinus = new System.Windows.Forms.Button();
             this.Tangens = new System.Windows.Forms.Button();
             this.Catangens = new System.Windows.Forms.Button();
+            this.ArcSinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -158,11 +159,22 @@
             this.Catangens.UseVisualStyleBackColor = true;
             this.Catangens.Click += new System.EventHandler(this.oneargumentfunction);
             // 
+            // ArcSinus
+            // 
+            this.ArcSinus.Location = new System.Drawing.Point(123, 159);
+            this.ArcSinus.Name = "ArcSinus";
+            this.ArcSinus.Size = new System.Drawing.Size(49, 50);
+            this.ArcSinus.TabIndex = 22;
+            this.ArcSinus.Text = "Arcsin";
+            this.ArcSinus.UseVisualStyleBackColor = true;
+            this.ArcSinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.ArcSinus);
             this.Controls.Add(this.Catangens);
             this.Controls.Add(this.Tangens);
             this.Controls.Add(this.Cosinus);
@@ -193,6 +205,7 @@
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button Tangens;
         private System.Windows.Forms.Button Catangens;
+        private System.Windows.Forms.Button ArcSinus;
     }
 }
 

@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MyProgectCsharp
+namespace MyProgectCsharp.One_argument
 {
     class OneArgumentFactory
     {
@@ -12,6 +8,8 @@ namespace MyProgectCsharp
         {
             switch (operationName)
             {
+                case "ArcSinus":
+                    return new Arcsin();
                 case "Sinus":
                     return new Sinus();
                 case "Cosinus":

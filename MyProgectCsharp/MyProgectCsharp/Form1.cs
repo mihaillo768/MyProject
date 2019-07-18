@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyProgectCsharp.One_argument;
+using MyProgectCsharp.Two_arguments;
 
 namespace MyProgectCsharp
 {

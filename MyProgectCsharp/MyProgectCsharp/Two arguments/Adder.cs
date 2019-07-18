@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyProgectCsharp
+﻿namespace MyProgectCsharp.Two_arguments
 {
     public class Adder:ITwoArgrumentsCalculator
     {
