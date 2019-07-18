@@ -31,8 +31,8 @@
             this.argument_1 = new System.Windows.Forms.TextBox();
             this.Plus = new System.Windows.Forms.Button();
             this.Minus = new System.Windows.Forms.Button();
-            this.multi = new System.Windows.Forms.Button();
-            this.div = new System.Windows.Forms.Button();
+            this.Multiplier = new System.Windows.Forms.Button();
+            this.Divider = new System.Windows.Forms.Button();
             this.argument_2 = new System.Windows.Forms.TextBox();
             this.TotalResult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -69,25 +69,26 @@
             this.Minus.UseVisualStyleBackColor = true;
             this.Minus.Click += new System.EventHandler(this.buttons);
             // 
-            // multi
+            // Multiplier
             // 
-            this.multi.Location = new System.Drawing.Point(12, 229);
-            this.multi.Name = "multi";
-            this.multi.Size = new System.Drawing.Size(139, 52);
-            this.multi.TabIndex = 12;
-            this.multi.Text = "*";
-            this.multi.UseVisualStyleBackColor = true;
-            this.multi.Click += new System.EventHandler(this.buttons);
+            this.Multiplier.Location = new System.Drawing.Point(12, 229);
+            this.Multiplier.Name = "Multiplier";
+            this.Multiplier.Size = new System.Drawing.Size(139, 52);
+            this.Multiplier.TabIndex = 12;
+            this.Multiplier.Text = "*";
+            this.Multiplier.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.Multiplier.UseVisualStyleBackColor = true;
+            this.Multiplier.Click += new System.EventHandler(this.buttons);
             // 
-            // div
+            // Divider
             // 
-            this.div.Location = new System.Drawing.Point(167, 229);
-            this.div.Name = "div";
-            this.div.Size = new System.Drawing.Size(139, 52);
-            this.div.TabIndex = 13;
-            this.div.Text = "/";
-            this.div.UseVisualStyleBackColor = true;
-            this.div.Click += new System.EventHandler(this.buttons);
+            this.Divider.Location = new System.Drawing.Point(167, 229);
+            this.Divider.Name = "Divider";
+            this.Divider.Size = new System.Drawing.Size(139, 52);
+            this.Divider.TabIndex = 13;
+            this.Divider.Text = "/";
+            this.Divider.UseVisualStyleBackColor = true;
+            this.Divider.Click += new System.EventHandler(this.buttons);
             // 
             // argument_2
             // 
@@ -120,8 +121,8 @@
             this.ClientSize = new System.Drawing.Size(322, 452);
             this.Controls.Add(this.TotalResult);
             this.Controls.Add(this.argument_2);
-            this.Controls.Add(this.div);
-            this.Controls.Add(this.multi);
+            this.Controls.Add(this.Divider);
+            this.Controls.Add(this.Multiplier);
             this.Controls.Add(this.Minus);
             this.Controls.Add(this.Plus);
             this.Controls.Add(this.argument_1);
@@ -136,8 +137,8 @@
         private System.Windows.Forms.TextBox argument_1;
         private System.Windows.Forms.Button Plus;
         private System.Windows.Forms.Button Minus;
-        private System.Windows.Forms.Button multi;
-        private System.Windows.Forms.Button div;
+        private System.Windows.Forms.Button Multiplier;
+        private System.Windows.Forms.Button Divider;
         private System.Windows.Forms.TextBox argument_2;
         private System.Windows.Forms.TextBox TotalResult;
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProgectCsharp
 {
-    public class Multiplier: ITwoArgrumentsCalculator
+    public class Multiplier : ITwoArgrumentsCalculator
     {
         public double Calculate(double first, double second)
         {
