@@ -12,6 +12,8 @@ namespace MyProgectCsharp
         {
             switch (operationName)
             {
+                case "Tangens":
+                    return new Tangens();
                 case "Sinus":
                     return new Sinus();
                 case "Cosinus":

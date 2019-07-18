@@ -37,6 +37,7 @@
             this.TotalResult = new System.Windows.Forms.TextBox();
             this.Sinus = new System.Windows.Forms.Button();
             this.Cosinus = new System.Windows.Forms.Button();
+            this.Tangens = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -55,7 +56,7 @@
             // 
             this.Plus.Location = new System.Drawing.Point(12, 157);
             this.Plus.Name = "Plus";
-            this.Plus.Size = new System.Drawing.Size(139, 52);
+            this.Plus.Size = new System.Drawing.Size(49, 52);
             this.Plus.TabIndex = 10;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
@@ -63,9 +64,9 @@
             // 
             // Minus
             // 
-            this.Minus.Location = new System.Drawing.Point(167, 157);
+            this.Minus.Location = new System.Drawing.Point(67, 157);
             this.Minus.Name = "Minus";
-            this.Minus.Size = new System.Drawing.Size(139, 52);
+            this.Minus.Size = new System.Drawing.Size(50, 52);
             this.Minus.TabIndex = 11;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
@@ -75,7 +76,7 @@
             // 
             this.Multiplier.Location = new System.Drawing.Point(12, 229);
             this.Multiplier.Name = "Multiplier";
-            this.Multiplier.Size = new System.Drawing.Size(139, 52);
+            this.Multiplier.Size = new System.Drawing.Size(49, 52);
             this.Multiplier.TabIndex = 12;
             this.Multiplier.Text = "*";
             this.Multiplier.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -84,9 +85,9 @@
             // 
             // Divider
             // 
-            this.Divider.Location = new System.Drawing.Point(167, 229);
+            this.Divider.Location = new System.Drawing.Point(67, 229);
             this.Divider.Name = "Divider";
-            this.Divider.Size = new System.Drawing.Size(139, 52);
+            this.Divider.Size = new System.Drawing.Size(50, 52);
             this.Divider.TabIndex = 13;
             this.Divider.Text = "/";
             this.Divider.UseVisualStyleBackColor = true;
@@ -120,27 +121,38 @@
             // 
             this.Sinus.Location = new System.Drawing.Point(12, 297);
             this.Sinus.Name = "Sinus";
-            this.Sinus.Size = new System.Drawing.Size(139, 50);
+            this.Sinus.Size = new System.Drawing.Size(49, 50);
             this.Sinus.TabIndex = 18;
-            this.Sinus.Text = "Sinus";
+            this.Sinus.Text = "Sin";
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.oneargumentfunction);
             // 
             // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(167, 297);
+            this.Cosinus.Location = new System.Drawing.Point(67, 297);
             this.Cosinus.Name = "Cosinus";
-            this.Cosinus.Size = new System.Drawing.Size(139, 50);
+            this.Cosinus.Size = new System.Drawing.Size(50, 50);
             this.Cosinus.TabIndex = 19;
             this.Cosinus.Text = "Cos";
             this.Cosinus.UseVisualStyleBackColor = true;
             this.Cosinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
+            // Tangens
+            // 
+            this.Tangens.Location = new System.Drawing.Point(12, 353);
+            this.Tangens.Name = "Tangens";
+            this.Tangens.Size = new System.Drawing.Size(49, 50);
+            this.Tangens.TabIndex = 20;
+            this.Tangens.Text = "Tan";
+            this.Tangens.UseVisualStyleBackColor = true;
+            this.Tangens.Click += new System.EventHandler(this.oneargumentfunction);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.Tangens);
             this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
             this.Controls.Add(this.TotalResult);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.TextBox TotalResult;
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Cosinus;
+        private System.Windows.Forms.Button Tangens;
     }
 }
 
