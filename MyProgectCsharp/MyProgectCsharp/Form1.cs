@@ -32,15 +32,22 @@ namespace MyProgectCsharp
         {
 
         }
-        private void buttons(object sender, EventArgs e)
+ 
+        private void oneargumentfunction(object sender, EventArgs e)
         {
+            double FirstArgument = Convert.ToDouble(argument_1.Text);
+            IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(FirstArgument);
+            TotalResult.Text = result.ToString();
+        }
 
-           double FirstArgument = Convert.ToDouble(argument_1.Text);
-           double SecondArgument = Convert.ToDouble(argument_2.Text);
-        ITwoArgrumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
+        private void twoargumentcalculate(object sender, EventArgs e)
+        {
+            double FirstArgument = Convert.ToDouble(argument_1.Text);
+            double SecondArgument = Convert.ToDouble(argument_2.Text);
+            ITwoArgrumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(FirstArgument, SecondArgument);
             TotalResult.Text = result.ToString();
-
+        }
     }
-}
 }

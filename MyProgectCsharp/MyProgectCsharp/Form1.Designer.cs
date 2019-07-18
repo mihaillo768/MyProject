@@ -35,6 +35,7 @@
             this.Divider = new System.Windows.Forms.Button();
             this.argument_2 = new System.Windows.Forms.TextBox();
             this.TotalResult = new System.Windows.Forms.TextBox();
+            this.Sinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -57,7 +58,7 @@
             this.Plus.TabIndex = 10;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.buttons);
+            this.Plus.Click += new System.EventHandler(this.twoargumentcalculate);
             // 
             // Minus
             // 
@@ -67,7 +68,7 @@
             this.Minus.TabIndex = 11;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.buttons);
+            this.Minus.Click += new System.EventHandler(this.twoargumentcalculate);
             // 
             // Multiplier
             // 
@@ -78,7 +79,7 @@
             this.Multiplier.Text = "*";
             this.Multiplier.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.Multiplier.UseVisualStyleBackColor = true;
-            this.Multiplier.Click += new System.EventHandler(this.buttons);
+            this.Multiplier.Click += new System.EventHandler(this.twoargumentcalculate);
             // 
             // Divider
             // 
@@ -88,7 +89,7 @@
             this.Divider.TabIndex = 13;
             this.Divider.Text = "/";
             this.Divider.UseVisualStyleBackColor = true;
-            this.Divider.Click += new System.EventHandler(this.buttons);
+            this.Divider.Click += new System.EventHandler(this.twoargumentcalculate);
             // 
             // argument_2
             // 
@@ -114,11 +115,22 @@
             this.TotalResult.TabIndex = 17;
             this.TotalResult.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
+            // Sinus
+            // 
+            this.Sinus.Location = new System.Drawing.Point(12, 297);
+            this.Sinus.Name = "Sinus";
+            this.Sinus.Size = new System.Drawing.Size(139, 50);
+            this.Sinus.TabIndex = 18;
+            this.Sinus.Text = "Sinus";
+            this.Sinus.UseVisualStyleBackColor = true;
+            this.Sinus.Click += new System.EventHandler(this.oneargumentfunction);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.Sinus);
             this.Controls.Add(this.TotalResult);
             this.Controls.Add(this.argument_2);
             this.Controls.Add(this.Divider);
@@ -141,6 +153,7 @@
         private System.Windows.Forms.Button Divider;
         private System.Windows.Forms.TextBox argument_2;
         private System.Windows.Forms.TextBox TotalResult;
+        private System.Windows.Forms.Button Sinus;
     }
 }
 
