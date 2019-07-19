@@ -49,12 +49,18 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="OneArguement\CosinusTest.cs" />
+    <Compile Include="OneArguement\CosinusTestCase.cs" />
     <Compile Include="OneArguement\SinusTest.cs" />
+    <Compile Include="OneArguement\SinusTestCase.cs" />
     <Compile Include="TwoArguements\AdderTest.cs" />
+    <Compile Include="TwoArguements\AdderTestCase.cs" />
     <Compile Include="TwoArguements\DividerTest.cs" />
+    <Compile Include="TwoArguements\DividerTestCase.cs" />
     <Compile Include="TwoArguements\MinusTest.cs" />
+    <Compile Include="TwoArguements\MinusTestCase.cs" />
     <Compile Include="TwoArguements\MultiplierTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArguements\MultiplierTestCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyProgectCsharp\MyProgectCsharp.csproj">
