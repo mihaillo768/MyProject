@@ -45,6 +45,11 @@
             this.Power = new System.Windows.Forms.Button();
             this.Logarifm = new System.Windows.Forms.Button();
             this.LogarifmOfTwo = new System.Windows.Forms.Button();
+            this.PowerTwoArguments = new System.Windows.Forms.Button();
+            this.Remainder = new System.Windows.Forms.Button();
+            this.MaxValue = new System.Windows.Forms.Button();
+            this.MinValue = new System.Windows.Forms.Button();
+            this.NegPower = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -224,11 +229,66 @@
             this.LogarifmOfTwo.UseVisualStyleBackColor = true;
             this.LogarifmOfTwo.Click += new System.EventHandler(this.oneargumentfunction);
             // 
+            // PowerTwoArguments
+            // 
+            this.PowerTwoArguments.Location = new System.Drawing.Point(122, 353);
+            this.PowerTwoArguments.Name = "PowerTwoArguments";
+            this.PowerTwoArguments.Size = new System.Drawing.Size(49, 50);
+            this.PowerTwoArguments.TabIndex = 29;
+            this.PowerTwoArguments.Text = "x^y";
+            this.PowerTwoArguments.UseVisualStyleBackColor = true;
+            this.PowerTwoArguments.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
+            // Remainder
+            // 
+            this.Remainder.Location = new System.Drawing.Point(178, 353);
+            this.Remainder.Name = "Remainder";
+            this.Remainder.Size = new System.Drawing.Size(49, 50);
+            this.Remainder.TabIndex = 30;
+            this.Remainder.Text = "Остаток";
+            this.Remainder.UseVisualStyleBackColor = true;
+            this.Remainder.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
+            // MaxValue
+            // 
+            this.MaxValue.Location = new System.Drawing.Point(233, 159);
+            this.MaxValue.Name = "MaxValue";
+            this.MaxValue.Size = new System.Drawing.Size(49, 50);
+            this.MaxValue.TabIndex = 31;
+            this.MaxValue.Text = "Max";
+            this.MaxValue.UseVisualStyleBackColor = true;
+            this.MaxValue.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
+            // MinValue
+            // 
+            this.MinValue.Location = new System.Drawing.Point(233, 231);
+            this.MinValue.Name = "MinValue";
+            this.MinValue.Size = new System.Drawing.Size(49, 50);
+            this.MinValue.TabIndex = 32;
+            this.MinValue.Text = "Min";
+            this.MinValue.UseVisualStyleBackColor = true;
+            this.MinValue.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
+            // NegPower
+            // 
+            this.NegPower.Location = new System.Drawing.Point(233, 297);
+            this.NegPower.Name = "NegPower";
+            this.NegPower.Size = new System.Drawing.Size(49, 50);
+            this.NegPower.TabIndex = 33;
+            this.NegPower.Text = "x^1/y";
+            this.NegPower.UseVisualStyleBackColor = true;
+            this.NegPower.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.NegPower);
+            this.Controls.Add(this.MinValue);
+            this.Controls.Add(this.MaxValue);
+            this.Controls.Add(this.Remainder);
+            this.Controls.Add(this.PowerTwoArguments);
             this.Controls.Add(this.LogarifmOfTwo);
             this.Controls.Add(this.Logarifm);
             this.Controls.Add(this.Power);
@@ -272,6 +332,11 @@
         private System.Windows.Forms.Button Power;
         private System.Windows.Forms.Button Logarifm;
         private System.Windows.Forms.Button LogarifmOfTwo;
+        private System.Windows.Forms.Button PowerTwoArguments;
+        private System.Windows.Forms.Button Remainder;
+        private System.Windows.Forms.Button MaxValue;
+        private System.Windows.Forms.Button MinValue;
+        private System.Windows.Forms.Button NegPower;
     }
 }
 

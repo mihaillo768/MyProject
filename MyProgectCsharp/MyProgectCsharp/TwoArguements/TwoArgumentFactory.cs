@@ -8,6 +8,18 @@ namespace MyProgectCsharp.TwoArguements
         {
             switch(operationName)
             {
+                case "MinValue":
+                    return new MinNumber();
+                case "NegPower":
+                    return new NegPower();
+                case "LogarifmOfTwo":
+                    return new LogOfTwoArguments();
+                case "PowerTwoArguments":
+                    return new TwoArgumentsPower();
+                case "MaxValue":
+                    return new MaxNumber();
+                case "Remainder":
+                    return new Remainder();
                 case "Plus":
                     return new Adder();
                 case "Minus":
