@@ -2,7 +2,7 @@
 
 namespace MyProgectCsharp.OneArguement
 {
-    class Sinus : IOneArgrumentCalculator
+     public class Sinus : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="OneArguement\CosinusTest.cs" />
+    <Compile Include="OneArguement\SinusTest.cs" />
     <Compile Include="TwoArguements\AdderTest.cs" />
     <Compile Include="TwoArguements\DividerTest.cs" />
     <Compile Include="TwoArguements\MinusTest.cs" />
@@ -60,11 +62,9 @@
       <Name>MyProgectCsharp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArguement\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

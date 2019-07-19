@@ -1,5 +1,9 @@
-﻿using MyProgectCsharp.OneArguement;
-using MyProgectCsharp.TwoArguements;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using MyProgectCsharp.OneArguement;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.OneArguement
@@ -12,8 +16,8 @@ namespace MyProjectCsharp.tests.OneArguement
         {
             IOneArgrumentCalculator calculator = new Sinus();
             double result = calculator.Calculate(1);
-            Assert.AreEqual(2, result);
+            Assert.AreEqual(0.84, result, 0.01);
         }
-
     }
 }
+
