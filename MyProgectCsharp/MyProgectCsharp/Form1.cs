@@ -45,11 +45,18 @@ namespace MyProjectCsharp
 
         private void twoargumentcalculate(object sender, EventArgs e)
         {
-            double FirstArgument = Convert.ToDouble(argument_1.Text);
-            double SecondArgument = Convert.ToDouble(argument_2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(FirstArgument, SecondArgument);
-            TotalResult.Text = result.ToString();
+            try
+            {
+                double FirstArgument = Convert.ToDouble(argument_1.Text);
+                double SecondArgument = Convert.ToDouble(argument_2.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(FirstArgument, SecondArgument);
+                TotalResult.Text = result.ToString();
+            }
+            catch(Exception exc)
+            {
+                TotalResult.Text = exc.Message;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
