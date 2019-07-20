@@ -2,7 +2,7 @@
 
 namespace MyProjectCsharp.OneArguement
 {
-    class Tangens : IOneArgrumentCalculator
+    public class Tangens : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

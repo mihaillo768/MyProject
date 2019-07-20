@@ -2,7 +2,7 @@
 
 namespace MyProjectCsharp.OneArguement
 {
-    class Logarifm : IOneArgrumentCalculator
+    public class Logarifm : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

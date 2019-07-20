@@ -2,7 +2,7 @@
 
 namespace MyProjectCsharp.OneArguement
 {
-    class Catangens : IOneArgrumentCalculator
+    public class Catangens : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

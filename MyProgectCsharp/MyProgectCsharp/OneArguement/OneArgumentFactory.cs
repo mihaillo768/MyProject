@@ -2,7 +2,7 @@
 
 namespace MyProjectCsharp.OneArguement
 {
-    class OneArgumentFactory
+    public class OneArgumentFactory
     {
         public static IOneArgrumentCalculator CreateCalculator(string operationName)
         {
