@@ -1,4 +1,5 @@
-﻿using MyProjectCsharp.TwoArguements;
+﻿using System;
+using MyProjectCsharp.TwoArguements;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.TwoArguements
@@ -18,8 +19,14 @@ namespace MyProjectCsharp.tests.TwoArguements
             ITwoArgumentsCalculator calculator = new Divider();
             double result = calculator.Calculate(4, 2);
             //Assert.Throws<>(() =>
-              //  calculator.Calculate());
+            //calculator.Calculate());
 
+        }
+        [Test]
+        public void CalculateTestExceptionTest()
+        {
+            ITwoArgumentsCalculator calculator = new Divider();
+            Assert.Throws<Exception>(() => calculator.Calculate(2, 0));
         }
 
     }

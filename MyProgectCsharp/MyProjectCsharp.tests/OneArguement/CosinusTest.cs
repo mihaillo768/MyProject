@@ -19,6 +19,6 @@ namespace MyProjectCsharp.tests.OneArguement
         {
             IOneArgrumentCalculator calculator = new Cosinus();
             Assert.Throws<Exception>(() => calculator.Calculate(3));
-    }
+        }
     }
 }

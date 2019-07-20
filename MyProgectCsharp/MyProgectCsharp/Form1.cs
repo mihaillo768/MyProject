@@ -12,7 +12,6 @@ namespace MyProjectCsharp
             InitializeComponent();
         }
 
-        // char znak;
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -27,17 +26,17 @@ namespace MyProjectCsharp
         {
 
         }
- 
+
         private void oneargumentfunction(object sender, EventArgs e)
         {
             try
             {
                 double FirstArgument = Convert.ToDouble(argument_1.Text);
-                IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
+                IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
                 double result = calculator.Calculate(FirstArgument);
                 TotalResult.Text = result.ToString();
             }
-            catch(Exception exc)
+            catch (Exception exc)
             {
                 TotalResult.Text = exc.Message;
             }
@@ -49,11 +48,11 @@ namespace MyProjectCsharp
             {
                 double FirstArgument = Convert.ToDouble(argument_1.Text);
                 double SecondArgument = Convert.ToDouble(argument_2.Text);
-                ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button) sender).Name);
+                ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
                 double result = calculator.Calculate(FirstArgument, SecondArgument);
                 TotalResult.Text = result.ToString();
             }
-            catch(Exception exc)
+            catch (Exception exc)
             {
                 TotalResult.Text = exc.Message;
             }

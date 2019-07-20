@@ -63,7 +63,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="OneArguement\IOneArgumentCalculator.cs" />
-    <Compile Include="TwoArguements\ITwoArgrumentsCalculator.cs" />
+    <Compile Include="TwoArguements\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArguements\LogOfTwoArguments.cs" />
     <Compile Include="TwoArguements\MaxNumber.cs" />
     <Compile Include="TwoArguements\MinNumber.cs" />
