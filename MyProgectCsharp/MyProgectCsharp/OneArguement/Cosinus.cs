@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyProgectCsharp.OneArguement
+namespace MyProjectCsharp.OneArguement
 {
     public class Cosinus : IOneArgrumentCalculator
     {

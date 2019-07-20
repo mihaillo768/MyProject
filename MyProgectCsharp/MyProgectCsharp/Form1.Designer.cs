@@ -1,4 +1,4 @@
-﻿namespace MyProgectCsharp
+﻿namespace MyProjectCsharp
 {
     partial class Form1
     {

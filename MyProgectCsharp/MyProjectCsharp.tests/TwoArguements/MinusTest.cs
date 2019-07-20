@@ -1,4 +1,4 @@
-﻿using MyProgectCsharp.TwoArguements;
+﻿using MyProjectCsharp.TwoArguements;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.TwoArguements
@@ -9,7 +9,7 @@ namespace MyProjectCsharp.tests.TwoArguements
         [Test]
         public void CalculateTest()
         {
-            ITwoArgrumentsCalculator calculator = new Minus();
+            ITwoArgumentsCalculator calculator = new Minus();
             double result = calculator.Calculate(4, 2);
             Assert.AreEqual(2, result);
         }

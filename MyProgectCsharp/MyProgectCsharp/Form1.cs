@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using MyProgectCsharp.OneArguement;
-using MyProgectCsharp.TwoArguements;
+using MyProjectCsharp.OneArguement;
+using MyProjectCsharp.TwoArguements;
 
-namespace MyProgectCsharp
+namespace MyProjectCsharp
 {
     public partial class Form1 : Form
     {
@@ -40,7 +40,7 @@ namespace MyProgectCsharp
         {
             double FirstArgument = Convert.ToDouble(argument_1.Text);
             double SecondArgument = Convert.ToDouble(argument_2.Text);
-            ITwoArgrumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
+            ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(FirstArgument, SecondArgument);
             TotalResult.Text = result.ToString();
         }

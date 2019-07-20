@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace MyProgectCsharp.TwoArguements
+namespace MyProjectCsharp.TwoArguements
 {
     public class TwoArgumentFactory
     {
-        public static ITwoArgrumentsCalculator CreateCalculator(string operationName)
+        public static ITwoArgumentsCalculator CreateCalculator(string operationName)
         {
             switch(operationName)
             { 

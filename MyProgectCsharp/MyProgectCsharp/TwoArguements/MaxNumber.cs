@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MyProgectCsharp.TwoArguements
+namespace MyProjectCsharp.TwoArguements
 {
-    public class MaxNumber: ITwoArgrumentsCalculator
+    public class MaxNumber: ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

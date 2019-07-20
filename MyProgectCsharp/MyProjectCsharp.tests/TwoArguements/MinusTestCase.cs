@@ -1,4 +1,4 @@
-﻿using MyProgectCsharp.TwoArguements;
+﻿using MyProjectCsharp.TwoArguements;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.TwoArguements

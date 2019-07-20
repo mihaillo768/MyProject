@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MyProgectCsharp.TwoArguements
+namespace MyProjectCsharp.TwoArguements
 {
-    public class LogOfTwoArguments:ITwoArgrumentsCalculator
+    public class LogOfTwoArguments : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

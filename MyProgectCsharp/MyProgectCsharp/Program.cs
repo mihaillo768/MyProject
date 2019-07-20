@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MyProgectCsharp
+namespace MyProjectCsharp
 {
     static class Program
     {

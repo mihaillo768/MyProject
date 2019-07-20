@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MyProgectCsharp.OneArguement
+namespace MyProjectCsharp.OneArguement
 {
-    class Logarifm: IOneArgrumentCalculator
+    class Logarifm : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

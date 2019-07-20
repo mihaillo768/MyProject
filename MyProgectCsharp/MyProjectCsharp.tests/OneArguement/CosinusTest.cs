@@ -1,4 +1,4 @@
-﻿using MyProgectCsharp.OneArguement;
+﻿using MyProjectCsharp.OneArguement;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.OneArguement
@@ -11,7 +11,7 @@ namespace MyProjectCsharp.tests.OneArguement
         {
             IOneArgrumentCalculator calculator = new Cosinus();
             double result = calculator.Calculate(1);
-            Assert.AreEqual(0.54, result,0.01);
+            Assert.AreEqual(0.54, result, 0.01);
         }
     }
 }

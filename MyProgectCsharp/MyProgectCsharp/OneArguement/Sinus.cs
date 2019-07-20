@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MyProgectCsharp.OneArguement
+namespace MyProjectCsharp.OneArguement
 {
-     public class Sinus : IOneArgrumentCalculator
+    public class Sinus : IOneArgrumentCalculator
     {
         public double Calculate(double first)
         {

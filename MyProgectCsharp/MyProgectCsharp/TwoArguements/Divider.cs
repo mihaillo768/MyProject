@@ -1,6 +1,6 @@
-﻿namespace MyProgectCsharp.TwoArguements
+﻿namespace MyProjectCsharp.TwoArguements
 {
-    public class Divider:ITwoArgrumentsCalculator
+    public class Divider:ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

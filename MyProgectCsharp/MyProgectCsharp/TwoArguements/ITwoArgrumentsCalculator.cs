@@ -1,6 +1,6 @@
-﻿namespace MyProgectCsharp.TwoArguements
+﻿namespace MyProjectCsharp.TwoArguements
 {
-    public interface ITwoArgrumentsCalculator
+    public interface ITwoArgumentsCalculator
     {
         double Calculate(double first, double second);
     }
