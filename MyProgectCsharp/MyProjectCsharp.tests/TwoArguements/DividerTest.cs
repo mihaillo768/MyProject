@@ -13,6 +13,14 @@ namespace MyProjectCsharp.tests.TwoArguements
             double result = calculator.Calculate(4, 2);
             Assert.AreEqual(2, result);
         }
+        public void CalculateTestByZero()
+        {
+            ITwoArgumentsCalculator calculator = new Divider();
+            double result = calculator.Calculate(4, 2);
+            //Assert.Throws<>(() =>
+              //  calculator.Calculate());
+
+        }
 
     }
 }

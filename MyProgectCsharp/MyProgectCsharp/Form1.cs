@@ -30,10 +30,17 @@ namespace MyProjectCsharp
  
         private void oneargumentfunction(object sender, EventArgs e)
         {
-            double FirstArgument = Convert.ToDouble(argument_1.Text);
-            IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(FirstArgument);
-            TotalResult.Text = result.ToString();
+            try
+            {
+                double FirstArgument = Convert.ToDouble(argument_1.Text);
+                IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
+                double result = calculator.Calculate(FirstArgument);
+                TotalResult.Text = result.ToString();
+            }
+            catch(Exception exc)
+            {
+                TotalResult.Text = exc.Message;
+            }
         }
 
         private void twoargumentcalculate(object sender, EventArgs e)
