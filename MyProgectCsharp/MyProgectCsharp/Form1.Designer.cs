@@ -50,6 +50,7 @@
             this.MaxValue = new System.Windows.Forms.Button();
             this.MinValue = new System.Windows.Forms.Button();
             this.NegPower = new System.Windows.Forms.Button();
+            this.LogOfTwoArg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // argument_1
@@ -279,11 +280,22 @@
             this.NegPower.UseVisualStyleBackColor = true;
             this.NegPower.Click += new System.EventHandler(this.twoargumentcalculate);
             // 
+            // LogOfTwoArg
+            // 
+            this.LogOfTwoArg.Location = new System.Drawing.Point(233, 353);
+            this.LogOfTwoArg.Name = "LogOfTwoArg";
+            this.LogOfTwoArg.Size = new System.Drawing.Size(49, 50);
+            this.LogOfTwoArg.TabIndex = 34;
+            this.LogOfTwoArg.Text = "log x(y)";
+            this.LogOfTwoArg.UseVisualStyleBackColor = true;
+            this.LogOfTwoArg.Click += new System.EventHandler(this.twoargumentcalculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(322, 452);
+            this.Controls.Add(this.LogOfTwoArg);
             this.Controls.Add(this.NegPower);
             this.Controls.Add(this.MinValue);
             this.Controls.Add(this.MaxValue);
@@ -337,6 +349,7 @@
         private System.Windows.Forms.Button MaxValue;
         private System.Windows.Forms.Button MinValue;
         private System.Windows.Forms.Button NegPower;
+        private System.Windows.Forms.Button LogOfTwoArg;
     }
 }
 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MyProgectCsharp.OneArguement;
-using MyProgectCsharp.TwoArguements;
+﻿using MyProgectCsharp.OneArguement;
 using NUnit.Framework;
 
 namespace MyProjectCsharp.tests.OneArguement

@@ -7,12 +7,12 @@ namespace MyProgectCsharp.TwoArguements
         public static ITwoArgrumentsCalculator CreateCalculator(string operationName)
         {
             switch(operationName)
-            {
+            { 
                 case "MinValue":
                     return new MinNumber();
                 case "NegPower":
                     return new NegPower();
-                case "LogarifmOfTwo":
+                case "LogOfTwoArg":
                     return new LogOfTwoArguments();
                 case "PowerTwoArguments":
                     return new TwoArgumentsPower();
