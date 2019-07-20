@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="OneArguement\ArccosExceptionTest.cs" />
+    <Compile Include="OneArguement\ArcsinusExceptionTest.cs" />
     <Compile Include="OneArguement\CosinusTest.cs" />
     <Compile Include="OneArguement\CosinusTestCase.cs" />
     <Compile Include="OneArguement\OneArgumentFactoryTests.cs" />

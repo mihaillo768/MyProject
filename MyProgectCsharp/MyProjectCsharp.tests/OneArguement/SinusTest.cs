@@ -18,7 +18,6 @@ namespace MyProjectCsharp.tests.OneArguement
         public void CalculateTestExceptionTest()
         {
             IOneArgrumentCalculator calculator = new Sinus();
-            double result = calculator.Calculate(1);
             Assert.Throws<Exception>(() => calculator.Calculate(3));
         }
     }
