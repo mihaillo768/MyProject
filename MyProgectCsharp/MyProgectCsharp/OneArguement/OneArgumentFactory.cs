@@ -2,6 +2,9 @@
 
 namespace MyProjectCsharp.OneArguement
 {
+    /// <summary>
+    /// This factory selects a calculator of one argument depending on the button pressed
+    /// </summary>
     public class OneArgumentFactory
     {
         public static IOneArgrumentCalculator CreateCalculator(string operationName)

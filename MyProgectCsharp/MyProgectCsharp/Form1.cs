@@ -27,7 +27,7 @@ namespace MyProjectCsharp
 
         }
 
-        private void oneargumentfunction(object sender, EventArgs e)
+        private void OneArgumentFunction(object sender, EventArgs e)
         {
             try
             {
@@ -42,7 +42,7 @@ namespace MyProjectCsharp
             }
         }
 
-        private void twoargumentcalculate(object sender, EventArgs e)
+        private void TwoArgumentFunction(object sender, EventArgs e)
         {
             try
             {

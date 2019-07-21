@@ -73,7 +73,7 @@
             this.Plus.TabIndex = 10;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.Plus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Minus
             // 
@@ -83,7 +83,7 @@
             this.Minus.TabIndex = 11;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.Minus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Multiplier
             // 
@@ -94,7 +94,7 @@
             this.Multiplier.Text = "*";
             this.Multiplier.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.Multiplier.UseVisualStyleBackColor = true;
-            this.Multiplier.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.Multiplier.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Divider
             // 
@@ -104,7 +104,7 @@
             this.Divider.TabIndex = 13;
             this.Divider.Text = "/";
             this.Divider.UseVisualStyleBackColor = true;
-            this.Divider.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.Divider.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // argument_2
             // 
@@ -138,7 +138,7 @@
             this.Sinus.TabIndex = 18;
             this.Sinus.Text = "Sin";
             this.Sinus.UseVisualStyleBackColor = true;
-            this.Sinus.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Sinus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Cosinus
             // 
@@ -148,7 +148,7 @@
             this.Cosinus.TabIndex = 19;
             this.Cosinus.Text = "Cos";
             this.Cosinus.UseVisualStyleBackColor = true;
-            this.Cosinus.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Cosinus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Tangens
             // 
@@ -158,7 +158,7 @@
             this.Tangens.TabIndex = 20;
             this.Tangens.Text = "Tan";
             this.Tangens.UseVisualStyleBackColor = true;
-            this.Tangens.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Tangens.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Catangens
             // 
@@ -168,7 +168,7 @@
             this.Catangens.TabIndex = 21;
             this.Catangens.Text = "Ctan";
             this.Catangens.UseVisualStyleBackColor = true;
-            this.Catangens.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Catangens.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // ArcSinus
             // 
@@ -178,7 +178,7 @@
             this.ArcSinus.TabIndex = 22;
             this.ArcSinus.Text = "Arcsin";
             this.ArcSinus.UseVisualStyleBackColor = true;
-            this.ArcSinus.Click += new System.EventHandler(this.oneargumentfunction);
+            this.ArcSinus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // ArcCosinus
             // 
@@ -188,7 +188,7 @@
             this.ArcCosinus.TabIndex = 23;
             this.ArcCosinus.Text = "Arccos";
             this.ArcCosinus.UseVisualStyleBackColor = true;
-            this.ArcCosinus.Click += new System.EventHandler(this.oneargumentfunction);
+            this.ArcCosinus.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // ArcTangens
             // 
@@ -198,7 +198,7 @@
             this.ArcTangens.TabIndex = 24;
             this.ArcTangens.Text = "Arctan";
             this.ArcTangens.UseVisualStyleBackColor = true;
-            this.ArcTangens.Click += new System.EventHandler(this.oneargumentfunction);
+            this.ArcTangens.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Power
             // 
@@ -208,7 +208,7 @@
             this.Power.TabIndex = 26;
             this.Power.Text = "e^x";
             this.Power.UseVisualStyleBackColor = true;
-            this.Power.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Power.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // Logarifm
             // 
@@ -218,7 +218,7 @@
             this.Logarifm.TabIndex = 27;
             this.Logarifm.Text = "ln(x)";
             this.Logarifm.UseVisualStyleBackColor = true;
-            this.Logarifm.Click += new System.EventHandler(this.oneargumentfunction);
+            this.Logarifm.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // LogarifmOfTwo
             // 
@@ -228,7 +228,7 @@
             this.LogarifmOfTwo.TabIndex = 28;
             this.LogarifmOfTwo.Text = "log2(x)";
             this.LogarifmOfTwo.UseVisualStyleBackColor = true;
-            this.LogarifmOfTwo.Click += new System.EventHandler(this.oneargumentfunction);
+            this.LogarifmOfTwo.Click += new System.EventHandler(this.OneArgumentFunction);
             // 
             // PowerTwoArguments
             // 
@@ -238,7 +238,7 @@
             this.PowerTwoArguments.TabIndex = 29;
             this.PowerTwoArguments.Text = "x^y";
             this.PowerTwoArguments.UseVisualStyleBackColor = true;
-            this.PowerTwoArguments.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.PowerTwoArguments.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // Remainder
             // 
@@ -248,7 +248,7 @@
             this.Remainder.TabIndex = 30;
             this.Remainder.Text = "Остаток";
             this.Remainder.UseVisualStyleBackColor = true;
-            this.Remainder.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.Remainder.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // MaxValue
             // 
@@ -258,7 +258,7 @@
             this.MaxValue.TabIndex = 31;
             this.MaxValue.Text = "Max";
             this.MaxValue.UseVisualStyleBackColor = true;
-            this.MaxValue.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.MaxValue.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // MinValue
             // 
@@ -268,7 +268,7 @@
             this.MinValue.TabIndex = 32;
             this.MinValue.Text = "Min";
             this.MinValue.UseVisualStyleBackColor = true;
-            this.MinValue.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.MinValue.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // NegPower
             // 
@@ -278,7 +278,7 @@
             this.NegPower.TabIndex = 33;
             this.NegPower.Text = "x^1/y";
             this.NegPower.UseVisualStyleBackColor = true;
-            this.NegPower.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.NegPower.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // LogOfTwoArg
             // 
@@ -288,7 +288,7 @@
             this.LogOfTwoArg.TabIndex = 34;
             this.LogOfTwoArg.Text = "log x(y)";
             this.LogOfTwoArg.UseVisualStyleBackColor = true;
-            this.LogOfTwoArg.Click += new System.EventHandler(this.twoargumentcalculate);
+            this.LogOfTwoArg.Click += new System.EventHandler(this.TwoArgumentFunction);
             // 
             // Form1
             // 
