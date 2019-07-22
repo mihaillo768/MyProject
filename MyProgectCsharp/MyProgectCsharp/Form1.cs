@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using MyProjectCsharp.OneArguement;
-using MyProjectCsharp.TwoArguements;
+using MyProjectCsharp.OneArgument;
+using MyProjectCsharp.TwoArguments;
 
 namespace MyProjectCsharp
 {
@@ -31,9 +31,9 @@ namespace MyProjectCsharp
         {
             try
             {
-                double FirstArgument = Convert.ToDouble(argument_1.Text);
-                IOneArgrumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-                double result = calculator.Calculate(FirstArgument);
+                double firstArgument = Convert.ToDouble(argument_1.Text);
+                IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstArgument);
                 TotalResult.Text = result.ToString();
             }
             catch (Exception exc)
@@ -46,10 +46,10 @@ namespace MyProjectCsharp
         {
             try
             {
-                double FirstArgument = Convert.ToDouble(argument_1.Text);
-                double SecondArgument = Convert.ToDouble(argument_2.Text);
+                double firstArgument = Convert.ToDouble(argument_1.Text);
+                double secondArgument = Convert.ToDouble(argument_2.Text);
                 ITwoArgumentsCalculator calculator = TwoArgumentFactory.CreateCalculator(((Button)sender).Name);
-                double result = calculator.Calculate(FirstArgument, SecondArgument);
+                double result = calculator.Calculate(firstArgument, secondArgument);
                 TotalResult.Text = result.ToString();
             }
             catch (Exception exc)
