@@ -1,6 +1,4 @@
-﻿using MyProjectCsharp.TwoArguments;
-
-namespace MyProjectCsharp.TwoArguments
+﻿namespace MyProjectCsharp.TwoArguments
 {
     public class Adder:ITwoArgumentsCalculator
     {

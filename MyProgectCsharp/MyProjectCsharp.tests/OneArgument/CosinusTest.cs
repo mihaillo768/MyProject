@@ -14,6 +14,7 @@ namespace MyProjectCsharp.tests.OneArgument
             double result = calculator.Calculate(1);
             Assert.AreEqual(0.54, result, 0.01);
         }
+
         [Test]
         public void CalculateTestExceptionTest()
         {

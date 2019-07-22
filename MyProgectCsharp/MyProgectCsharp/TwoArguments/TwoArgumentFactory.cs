@@ -5,7 +5,7 @@ namespace MyProjectCsharp.TwoArguments
     /// <summary>
     /// This factory selects a calculator of two argument depending on the button pressed
     /// </summary>
-    public class TwoArgumentFactory
+    public static class TwoArgumentFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(string operationName)
         {

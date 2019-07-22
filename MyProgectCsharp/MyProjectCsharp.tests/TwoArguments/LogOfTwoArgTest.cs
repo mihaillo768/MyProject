@@ -5,8 +5,15 @@ using NUnit.Framework;
 namespace MyProjectCsharp.tests.TwoArguments
 {
     [TestFixture()]
-    class LogOfTwoArgExceptionTest
+    class LogOfTwoArgTest
     {
+        [Test]
+        public void CalculateTest()
+        {
+            ITwoArgumentsCalculator calculator = new LogOfTwoArguments();
+            double result = calculator.Calculate(4, 2);
+            Assert.AreEqual(0.5, result);
+        }
         [Test]
         public void CalculateTestExceptionTest()
         {

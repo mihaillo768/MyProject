@@ -47,25 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgument\ArccosExceptionTest.cs" />
-    <Compile Include="OneArgument\ArcsinusExceptionTest.cs" />
+    <Compile Include="OneArgument\ArccosTest.cs" />
+    <Compile Include="OneArgument\ArcsinusTest.cs" />
+    <Compile Include="OneArgument\ArctanTest.cs" />
     <Compile Include="OneArgument\CosinusTest.cs" />
     <Compile Include="OneArgument\CosinusTests.cs" />
+    <Compile Include="OneArgument\CotangentTest.cs" />
+    <Compile Include="OneArgument\LogarithmOfTwoTests.cs" />
+    <Compile Include="OneArgument\LogarithmTest.cs" />
     <Compile Include="OneArgument\OneArgumentFactoryTests.cs" />
+    <Compile Include="OneArgument\PowerTests.cs" />
     <Compile Include="OneArgument\SinusTest.cs" />
     <Compile Include="OneArgument\SinusTests.cs" />
+    <Compile Include="OneArgument\TangentTest.cs" />
     <Compile Include="TwoArguments\AdderTest.cs" />
     <Compile Include="TwoArguments\AdderTests.cs" />
     <Compile Include="TwoArguments\DividerTest.cs" />
     <Compile Include="TwoArguments\DividerTests.cs" />
-    <Compile Include="TwoArguments\LogOfTwoArgExceptionTest.cs" />
+    <Compile Include="TwoArguments\LogOfTwoArgTest.cs" />
+    <Compile Include="TwoArguments\MaxNumberTest.cs" />
+    <Compile Include="TwoArguments\MinNumberTest.cs" />
     <Compile Include="TwoArguments\MinusTest.cs" />
     <Compile Include="TwoArguments\MinusTests.cs" />
     <Compile Include="TwoArguments\MultiplierTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\MultiplierTests.cs" />
-    <Compile Include="TwoArguments\NegPowerExceptionTest.cs" />
-    <Compile Include="TwoArguments\RemainderExceptionTest.cs" />
+    <Compile Include="TwoArguments\NegPowerTest.cs" />
+    <Compile Include="TwoArguments\RemainderTest.cs" />
+    <Compile Include="TwoArguments\TwoArgumentPowerTest.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactoryTests.cs" />
   </ItemGroup>
   <ItemGroup>

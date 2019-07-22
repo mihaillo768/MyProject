@@ -2,7 +2,7 @@
 
 namespace MyProjectCsharp.TwoArguments
 {
-    public class NegPower:ITwoArgumentsCalculator
+    public class NegPower : ITwoArgumentsCalculator
     {
         /// <summary>
         /// raises a number to a power
@@ -16,7 +16,7 @@ namespace MyProjectCsharp.TwoArguments
             {
                 throw new Exception("Деление на ноль запрещено");
             }
-            return Math.Pow(first, 1/second);
+            return Math.Pow(first, 1 / second);
         }
     }
 }

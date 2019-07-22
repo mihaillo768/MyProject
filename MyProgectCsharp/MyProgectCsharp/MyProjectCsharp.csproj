@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{07274794-0EB1-47CC-821D-0045FF9D7970}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MyProgectCsharp</RootNamespace>
+    <RootNamespace>MyProjectCsharp</RootNamespace>
     <AssemblyName>MyProjectCsharp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -70,7 +70,9 @@
     <Compile Include="TwoArguments\Minus.cs" />
     <Compile Include="TwoArguments\Multiplier.cs" />
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="..\MyProjectCsharp\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgument\Sinus.cs" />
     <Compile Include="OneArgument\Tangent.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

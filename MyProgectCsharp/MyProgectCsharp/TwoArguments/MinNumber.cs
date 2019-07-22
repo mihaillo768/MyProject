@@ -1,5 +1,4 @@
 ﻿using System;
-using MyProjectCsharp.TwoArguments;
 
 namespace MyProjectCsharp.TwoArguments
 {

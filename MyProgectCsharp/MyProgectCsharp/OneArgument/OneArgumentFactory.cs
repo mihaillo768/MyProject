@@ -1,6 +1,4 @@
 ﻿using System;
-using MyProjectCsharp.OneArgument;
-using MyProjectCsharp.OneArgument;
 
 namespace MyProjectCsharp.OneArgument
 {
